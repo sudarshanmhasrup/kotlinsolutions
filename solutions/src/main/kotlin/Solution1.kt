@@ -1,7 +1,7 @@
 // Program to add two given numbers using a function
-fun calculateSum(number1: Int, number2: Int) = number1 + number2
+private fun calculateSum(number1: Int, number2: Int) = number1 + number2
 
-fun getUserInput(): Int {
+private fun getUserInput(): Int {
 
     var isValidInput = false
     var result = 0
